@@ -1,5 +1,4 @@
 body {
-  background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-size: 150px, 200px; /* 調整圖案大小 */
   color: #ffffff;
