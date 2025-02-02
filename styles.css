@@ -1,6 +1,4 @@
 body {
-  background-color: #FF0000; /* 純紅色背景 */
-  background-image: url('lantern.png'), url('fireworks.png'); /* 燈籠和煙花圖案 */
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-size: 150px, 200px; /* 調整圖案大小 */
