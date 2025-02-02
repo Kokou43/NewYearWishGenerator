@@ -1,0 +1,74 @@
+body {
+  background-color: #FF0000; /* 純紅色背景 */
+  background-image: url('lantern.png'), url('fireworks.png'); /* 燈籠和煙花圖案 */
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 150px, 200px; /* 調整圖案大小 */
+  color: #ffffff;
+  font-family: 'PingFang SC', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 35px;
+}
+
+header h3 {
+  font-size: 35px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+button {
+  background-color: #FFD700;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #8B0000;
+  transform: scale(1.05);
+}
+
+.output-box {
+  background-color: rgba(255, 255, 224, 0.8);
+  border: 2px dashed #FFD700;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s;
+  white-space: pre-line; /* 允許換行 */
+}
+
+footer p {
+  font-size: 20px;
+  color: #060606;
+  margin-top: 20px;
+}
